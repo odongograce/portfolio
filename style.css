@@ -1,0 +1,34 @@
+
+body, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: maroon; 
+  padding: 10px 0;
+}
+
+.nav li {
+  margin: 0 15px; 
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none; 
+  color: white; 
+  font-size: 18px;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease; 
+}
+nav h3{
+     color: white;
+}
+
+.nav a:hover {
+  background-color: black; 
+  border-radius: 5px; 
+}
